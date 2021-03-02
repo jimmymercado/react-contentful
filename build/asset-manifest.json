@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-contentful/static/css/main.5f2fc193.chunk.css",
+    "main.js": "/react-contentful/static/js/main.c5ce28fe.chunk.js",
+    "main.js.map": "/react-contentful/static/js/main.c5ce28fe.chunk.js.map",
+    "runtime-main.js": "/react-contentful/static/js/runtime-main.c390493c.js",
+    "runtime-main.js.map": "/react-contentful/static/js/runtime-main.c390493c.js.map",
+    "static/css/2.29807b97.chunk.css": "/react-contentful/static/css/2.29807b97.chunk.css",
+    "static/js/2.c81671fc.chunk.js": "/react-contentful/static/js/2.c81671fc.chunk.js",
+    "static/js/2.c81671fc.chunk.js.map": "/react-contentful/static/js/2.c81671fc.chunk.js.map",
+    "index.html": "/react-contentful/index.html",
+    "static/css/2.29807b97.chunk.css.map": "/react-contentful/static/css/2.29807b97.chunk.css.map",
+    "static/css/main.5f2fc193.chunk.css.map": "/react-contentful/static/css/main.5f2fc193.chunk.css.map",
+    "static/js/2.c81671fc.chunk.js.LICENSE.txt": "/react-contentful/static/js/2.c81671fc.chunk.js.LICENSE.txt",
+    "static/media/banner-codes.fca620de.jpg": "/react-contentful/static/media/banner-codes.fca620de.jpg",
+    "static/media/banner-laptop.d560188c.jpg": "/react-contentful/static/media/banner-laptop.d560188c.jpg",
+    "static/media/main.css": "/react-contentful/static/media/digitization.cc173f04.jpg",
+    "static/media/all.css": "/react-contentful/static/media/fa-solid-900.f4f93856.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c390493c.js",
+    "static/css/2.29807b97.chunk.css",
+    "static/js/2.c81671fc.chunk.js",
+    "static/css/main.5f2fc193.chunk.css",
+    "static/js/main.c5ce28fe.chunk.js"
+  ]
+}
