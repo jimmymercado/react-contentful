@@ -13,11 +13,6 @@ import './assets/css/cssbox.css';
 
 
 class App extends Component{
-  constructor(){
-    super();
-    
-  }
-
 
   render(){
     return(

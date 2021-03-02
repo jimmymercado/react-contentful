@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import client from  './Client';
 import Loader from '../components/Loader';
-import marked from 'marked';
 
 class Services extends Component{
 

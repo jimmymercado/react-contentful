@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import img1 from '../assets/images/banner-codes.jpg';
-import img2 from '../assets/images/banner-laptop.jpg';
 import client from './Client';
 import imgLoader from '../assets/images/black_loader.gif';
 import {Link} from 'react-router-dom';

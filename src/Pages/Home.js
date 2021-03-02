@@ -48,7 +48,7 @@ class Home extends Component{
       order: 'sys.createdAt'
     }).then((entries)=>{
       this.setState({homeFAQ: entries.items[0]});
-      console.log(this.state.homeFAQ);
+      //console.log(this.state.homeFAQ);
     });
 
   }
@@ -147,7 +147,7 @@ class Home extends Component{
                 return (
                   <div key={num} className="cssbox">
                     <a id={num} href={`#${num}`}><img className="cssbox_thumb" src={item.fields.file.url} alt={num}/>
-                      <span className="cssbox_full"><img src={item.fields.file.url} /></span>
+                      <span className="cssbox_full"><img src={item.fields.file.url} alt={num}/></span>
                     </a>
                     <a className="cssbox_close" href="#void"> </a>
                     <a className="cssbox_next" href={`#${num+1}`}>&gt;</a>
