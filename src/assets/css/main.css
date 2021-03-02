@@ -1,0 +1,156 @@
+#feature {
+  background: #dedede;
+  padding-bottom: 40px;
+}
+
+.feature-wrap {
+  padding-bottom: 55px;
+}
+
+.feature-wrap h2 {
+  margin-top: 10px;
+  font-size:20px;
+}
+
+.feature-wrap h3 {
+  font-size: 16px;
+  color:#787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.feature-wrap i {
+  font-size: 48px;
+  height: 110px;
+  width: 110px;
+  margin:3px;
+  background: #fff;
+  border-radius: 100%;
+  line-height: 110px;
+  text-align: center;
+  border:3px solid #ffffff;
+  box-shadow: inset 0 0 0 5px #ddd;
+  color: #e8ce08;
+  float: left;
+  margin-right:25px; 
+}
+
+.cssbox img {
+    margin: 5px;
+}
+
+
+/******************* Accordion Demo - 3 *****************/
+#accordion3{
+    padding-left: 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+#accordion3:before{
+    content: "";
+    width: 5px;
+    height: 100%;
+    background: #004e89;
+    position: absolute;
+    top: 0;
+    left: 22px;
+}
+#accordion3 .panel-title a{
+    display: block;
+    padding: 10px 30px 15px 0;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    color: #004e89;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    box-shadow: 0 1px 2px rgba(43,59,93,0.30);
+}
+#accordion3 .panel-title a:before{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #cad5c2;
+    text-align: center;
+    font-size: 17px;
+    color: #004e89;
+    border: 6px solid #004e89;
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+#accordion3 .panel-title a.collapsed:before{
+    content: "\f067";
+    background: #fff;
+}
+#accordion3 .panel-body{
+    padding: 0px 15px;
+    background: #eee;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) inset, 0 1px 2px rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    color: #487677;
+    line-height: 25px;
+}
+
+.spacer{
+  min-height: 50px;
+}
+
+#services{
+  background: #000 url(../images/digitization.jpg);
+  background-size: cover;
+
+}
+
+#services h2, #services .text-center{
+  color:#fff;
+}
+.service-wrap img{
+  float:left;
+}
+
+.service-wrap{
+  background: #fff;
+  padding: 40px;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+.service-wrap h3{
+  font-size: 20px;
+}
+
+.blog-content{
+  padding-bottom: 50px;
+}
+
+.blog-content h3{
+  font-size:25px;
+}
+
+.blog-content img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.contact-form{
+  text-align:center;
+  padding-bottom: 25px;
+}
+
+.loadergif {
+  text-align: center;
+}
+.loadergif img {
+  width:50px;
+  height:auto;
+}
