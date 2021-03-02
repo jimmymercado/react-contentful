@@ -60,6 +60,13 @@ class Home extends Component{
     return '';
   }
 
+  setAccordion(keyIndex){
+    if(keyIndex === 1){
+      return 'show';
+    }
+    return 'collapsed';
+  }
+
 
   getParsedMarkdown(text){
     return{
@@ -182,7 +189,7 @@ class Home extends Component{
                           {item.fields.title}
                         </button>
                       </h2>
-                      <div id={`collapse${num}`} className="accordion-collapse collapse show" aria-labelledby={`heading${num}`} data-bs-parent="#accordionExample">
+                      <div id={`collapse${num}`} className={`accordion-collapse collapse ${this.setAccordion(num)}`} aria-labelledby={`heading${num}`} data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                           <p dangerouslySetInnerHTML={this.getParsedMarkdown(item.fields.description)}></p>
                         </div>
